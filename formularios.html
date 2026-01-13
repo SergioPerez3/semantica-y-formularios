@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+    <main>
+      <h1>Contactos</h1>
+
+      <form action="https://formsubmit.co/sergio_01_3@hotmail.com" method="post">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Escriba su nombre"
+          />
+        </div>
+        <div>
+          <label for="correo">Correo electrónico</label>
+          <input
+            type="email"
+            name="correo"
+            id="correo"
+            placeholder="Escriba su correo electrónico"
+          />
+        </div>
+        <div>
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            placeholder="Escriba aqui su mensaje"
+          ></textarea>
+        </div>
+
+        <div>
+            <label for="condiciones">Acepto la politica de privacidad y terminos de uso.</label>
+            <input type="checkbox" name="condiciones" id="condiciones" value="si">
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer><small>&copy;2024</small></footer>
+  </body>
+</html>
